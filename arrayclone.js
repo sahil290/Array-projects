@@ -2,12 +2,8 @@
 //Test data//
 //1. console.log(arrayClone([1,2,4,0]));//
 //2. console.log(arrayClone([1,2[4,0]]));//
-var arrayClone = [];
+const arrayClone = (arr) => (arr.map(item => item));
 
-arrayClone = (array) => {
-    return array.slice(0);
-}
 console.log(arrayClone([1,2,4,0]));
 
-
-console.log(arrayClone([1,2,[4,0]]));
+console.log(arrayClone([1,2,[4,0]]))
