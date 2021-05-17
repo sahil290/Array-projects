@@ -2,8 +2,8 @@
 //Test data//
 //1. console.log (is array('w3resource'));// false//
 //2.console.log (is array ([1,2,4,0]));// true//
-var isArray = [];
+const isArray = (arr) => (Array.isArray(arr));
 
-console.log(Array.isArray('w3resource'));
+console.log(isArray('w3resource'));
 
-console.log(Array.isArray([1,2,4,0]));
+console.log(isArray([1,2,4,0]));
