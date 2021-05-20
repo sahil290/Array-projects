@@ -1,0 +1,86 @@
+*{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.rectangle{
+    background-color: rgba(8, 8, 99, 0.952);
+    border-radius: 150px;
+}
+.personal{
+    text-align: center;
+    color: white;
+}
+.me{
+    height: 15%;
+    width: 15%;
+    border-radius: 120px;
+    margin-left: 42%;
+}
+.h1{
+    text-align: center;
+    text-decoration: solid;
+}
+.info{
+    color: white;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.b{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius:100px
+}
+.square{
+    background-color: darkslategrey;
+    border-radius: 150px ;
+   
+}
+.skills{
+    color: white;
+    text-align: center;
+}
+.reacts{
+    color: white;
+    text-align: center;
+}
+.mongo{
+    color: white;
+    text-align: center;
+}
+.button{
+    margin-bottom: 5px;
+    margin-left: 48%;
+    border-radius:5px
+}
+.github{
+    margin-bottom: 5px;
+    margin-left: 48%;
+    border-radius:5px
+}
+.skills:hover{
+    background-color:rgb(25, 24, 26);
+    border-radius:150px;
+}
+.button:hover{
+    color: blue;
+    background-color: yellow;
+    cursor: cell;
+}
+.github:hover{
+    color: blue;
+    background-color: yellow;
+    cursor: cell;
+}
+marquee{
+    border-radius: 15px;
+}
+.disclaimer{
+    background-color: darkred
+}
+p{
+    color: white;
+    font-size: larger;
+}
